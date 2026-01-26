@@ -1,5 +1,20 @@
-p{ font: size 18px;
- 
-    color:blue;
+p{ 
+  color:blue;
+  font: size 18px;
+}
 
+header {
+    background-color: aquamarine
+    ;
+}
+#firstP{
+    color: purple;
+}
+ 
+.bolder {
+    font-weight: bold;
+}
+
+.darker {
+    color: brown;
 }
