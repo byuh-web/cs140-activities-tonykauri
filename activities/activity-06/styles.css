@@ -1,0 +1,19 @@
+header h1 {
+    color:blueviolet;
+}
+
+#brown {
+    color: brown;
+}
+
+.dark {
+    background-color: aquamarine;
+}
+
+div {
+    border: black thick dashed ;
+}
+
+span {
+    color: red;
+}
