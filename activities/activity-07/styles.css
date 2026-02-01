@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+h1 { 
+    color: darkblue; 
+    text-align: center; 
+} 
+
+
+h2 { 
+    color: teal;
+ }
+
+ .highlight {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+.deemphasis {
+    color: gray;
+    font-style: italic;
+}
