@@ -11,7 +11,7 @@ h1 {
 
 
 h2 { 
-    color: teal;
+    color: gray;
  }
 
  .highlight {
@@ -21,6 +21,6 @@ h2 {
 }
 
 .deemphasis {
-    color: gray;
+    color: green;
     font-style: italic;
 }
