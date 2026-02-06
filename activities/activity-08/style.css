@@ -1,7 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
 }
 
 header {
@@ -37,4 +35,8 @@ footer {
     text-align: center;
     padding: 10px;
     margin-top: 20px;
+}
+
+li {
+    list-style-image: url('stitch.jpg');
 }
