@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: #0b3d91;
+    background-color: #31438a;
     color: white;
     padding: 15px;
     text-align: center;
@@ -32,7 +32,7 @@ img {
 footer {
     background-color: #0b3d91;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 10px;
     margin-top: 20px;
 }
@@ -40,3 +40,79 @@ footer {
 li {
     list-style-image: url('stitch.jpg');
 }
+
+img {
+    max-width: 100%;
+}
+body { 
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color:#f4f4f4; 
+    color:#222 
+} 
+
+header, nav, main, footer { 
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 1rem; 
+}
+
+ header 
+ { background-color: color(srgb rgb(32, 120, 133) green blue); 
+    color: white; 
+    text-align: center; 
+}
+
+nav { 
+    background-color:currentColor;
+    display: flex; 
+    gap: 1rem; 
+    justify-content: left; 
+    flex-wrap: wrap; 
+} 
+
+
+nav a { 
+    text-decoration: none; 
+    color: #cbd9df; 
+    padding: 0.3rem 0.6rem;
+} 
+
+nav a.current { 
+
+    background-color: #004b6b; 
+    color: white; 
+    border-radius: 4px; 
+}
+
+main img { 
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0.5rem 0 1rem;
+} 
+ 
+footer { 
+    text-align: left; 
+    font-size: 0.9rem; 
+    color: white; 
+}
+
+.tour-list { 
+    list-style: none; 
+    padding-left: 0; 
+}
+
+.tour-list li { 
+    padding-left: 28px; 
+    margin-bottom: 0.4rem; 
+    background-image: url("images/bullet.png"); 
+    background-repeat: no-repeat; 
+    background-position: 0 4px; 
+} 
+
+.home-page { 
+    background-image: url("images/bg-repeat.png"), url("images/bg-decor.png"); 
+    background-repeat: repeat, no-repeat;
+    background-position: top left, right center;
+ }
