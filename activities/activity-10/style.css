@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    margin: 40;
+}
+
+header {
+    background-color: rgb(188, 121, 32);
+    color: black;
+    padding: 10;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(142, 127, 255);
+    padding: 10;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: dotted;
+}
+
+main {
+    padding: 20;
+}
+
+.Box1 {
+    background-color: lightblue;
+    border: 2px solid rgb(0, 162, 255);
+    padding: 20px 10px;
+    margin: 50px;
+}
+
+.Box2{
+    background-color:lightgreen ;
+    border: 10px dashed ;
+    padding: 2rem 4rem;
+    margin: 10px 20px;
+}
+
+
+
+footer {
+    background-color: rgb(64, 121, 194);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
