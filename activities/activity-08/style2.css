@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "times roman";
+    background-color: #f2f2f2;
+}
+
+
+#page-header {
+    background-image: url(pattern-bg.png/coastal-beauty-stockcake.webp);
+    background-size: cover;
+    color: #120f0f;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.nav-list > li {
+    padding: 0.25rem 0.75rem;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 4px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.nav-list a:hover {
+    color: #333333;
+    background-color: #ffffff;
+}
+
+
+.resources {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 6px;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.resources li {
+    margin-bottom: 0.5rem;
+}
