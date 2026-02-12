@@ -30,13 +30,13 @@ main {
 .Box1 {
     background-color: lightblue;
     border: 2px solid rgb(0, 162, 255);
-    padding: 20px 10px;
-    margin: 50px;
+    padding:  auto;
+    margin: auto;
 }
 
 .Box2{
     background-color:lightgreen ;
-    border: 10px dashed ;
+    border: 10px solid ;
     padding: 2rem 4rem;
     margin: 10px 20px;
 }
@@ -44,8 +44,36 @@ main {
 
 
 footer {
-    background-color: rgb(64, 121, 194);
+    background-color: rgb(214, 155, 215);
     color: white;
     text-align: center;
     padding: 15px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-end-end-radius: initial;
+    border-right-style:var(float-image);
+}
+
+figcaption {
+    font-style: italic;
+    font-size: smaller;
+    text-shadow: 10px 10px 5px;
+    text-align: center;
+    line-height: 5;
+}
+
+#pic {
+    width: 200px;
+    border: thick solid black;
+    margin:10px;
+    
+}
+
+.float.Box1 {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
