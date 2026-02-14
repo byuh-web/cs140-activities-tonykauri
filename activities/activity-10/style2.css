@@ -36,7 +36,7 @@ figure {
 
 figure img {
     width: 250px;
-    border-radius: 15px;
+    border-radius: 30px;
     box-shadow: 20px 10px 10px rgba(0,0,0,0.3);
     border: thick solid gray;
 }
