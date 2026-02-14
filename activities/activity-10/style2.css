@@ -13,7 +13,7 @@ header {
 
 nav a {
     color: white;
-    text-decoration: none;
+    text-decoration: bold ;
     margin: 0 15px;
     padding: 8px 12px;
     background-color:gray;
@@ -25,14 +25,14 @@ nav a:hover {
 }
 
 main {
-    padding: 20px;
+    padding: 70px;
     background-color: white;
     background-color: orange;
     
 }
 
 figure {
-    margin: 0 auto;
+    margin: 0;
 }
 
 figure img {
@@ -61,11 +61,12 @@ figcaption {
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: rgb(123, 67, 161);
+    text-align: left;
+    padding: 10pxx;
+    background-color: rgb(67, 161, 155);
     color: white;
     margin-top: 50px;
+    
 }
 
 .wrapper {
