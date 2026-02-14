@@ -1,7 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f400;
 }
 
 header {
@@ -16,7 +16,7 @@ nav a {
     text-decoration: none;
     margin: 0 15px;
     padding: 8px 12px;
-    background-color: gray;
+    background-color:gray;
     border-radius: 8px;
 }
 
@@ -27,11 +27,12 @@ nav a:hover {
 main {
     padding: 20px;
     background-color: white;
+    background-color: orange;
     
 }
 
 figure {
-    margin: 0;
+    margin: 0 auto;
 }
 
 figure img {
@@ -46,6 +47,7 @@ figcaption {
     font-size: 0.9rem;
     margin-top: 5px;
     text-shadow: 0 0 3px black
+    
 }
 
 .float-image {
@@ -61,7 +63,7 @@ figcaption {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: rgb(67, 119, 161);
+    background-color: rgb(123, 67, 161);
     color: white;
     margin-top: 50px;
 }
