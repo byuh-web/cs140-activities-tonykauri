@@ -21,12 +21,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: gray;
+    background-color: rgb(183, 85, 85);
 }
 
 main {
     padding: 20px;
     background-color: white;
+    
 }
 
 figure {
@@ -59,9 +60,15 @@ figcaption {
 
 footer {
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     background-color: rgb(67, 119, 161);
     color: white;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
+.wrapper {
+    width: 850px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: greenyellow;
+}
