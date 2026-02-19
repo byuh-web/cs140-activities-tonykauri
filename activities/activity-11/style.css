@@ -1,0 +1,19 @@
+.parent {
+	align-items: end;
+	background-color: ghostwhite;
+	display: grid;
+	grid-column-gap: .5rem;
+	grid-row-gap: 6rem;
+	grid-template-columns: repeat( 3, 1rem );
+	grid-template-rows: repeat( 3, 5rem );
+}
+	
+div {
+	padding: .5rem;
+}
+
+div div {
+	background-color: cornflowerblue;
+	border: 2px solid darkblue;
+	border-radius: 2rem;
+}
