@@ -3,10 +3,12 @@
 	background-color: ghostwhite;
 	display: grid;
 	grid-column-gap: .5rem;
-	grid-row-gap: 6rem;
-	grid-template-columns: repeat( 3, 1rem );
+	grid-row: 8px;
+	grid-template-columns: repeat( 3, 2fr );
 	grid-template-rows: repeat( 3, 5rem );
+	grid-column-gap: 8rem;
 }
+
 	
 div {
 	padding: .5rem;
@@ -14,6 +16,6 @@ div {
 
 div div {
 	background-color: cornflowerblue;
-	border: 2px solid darkblue;
+	border: 2px solid rgb(29, 25, 11);
 	border-radius: 2rem;
 }
