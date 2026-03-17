@@ -1,10 +1,10 @@
 body {
     margin: 0;
-    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #82a583;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -51,7 +51,6 @@ section img {
 .gallery img {
     margin-bottom: 1rem;
 }
-
 
 @media (min-width: 600px) {
     nav .nav-menu {
