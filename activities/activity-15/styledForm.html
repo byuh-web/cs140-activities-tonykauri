@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>My Sign-Up Form</h1>
+</header>
+
+<main>
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob">
+            </div>
+
+            <div class="form-group">
+                <label for="bio">About You:</label>
+                <textarea id="bio"></textarea>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferences</legend>
+
+            <div class="form-group">
+                <label>Gender:</label>
+                <div class="inline">
+                    <label><input type="radio" name="gender"> Male</label>
+                    <label><input type="radio" name="gender"> Female</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Interests:</label>
+                <div class="inline">
+                    <label><input type="checkbox"> Sports</label>
+                    <label><input type="checkbox"> Music</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <select id="country">
+                    <option>USA</option>
+                    <option>India</option>
+                    <option>Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" required> Agree to Terms
+                </label>
+            </div>
+
+        </fieldset>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</main>
+
+<footer>
+    <p>© 2026 My Website tony</p>
+</footer>
+
+</body>
+</html>

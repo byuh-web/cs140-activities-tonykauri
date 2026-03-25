@@ -1,0 +1,86 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    background-color: #a4a4a3;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer {
+    background-color: #b3d7d7;
+    color: rgb(81, 70, 70);
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    width: 150px;
+}
+
+input, textarea, select {
+    flex: 1;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #a81111;
+}
+
+.inline label {
+    margin-right: 10px;
+}
+
+fieldset {
+    border: 2px solid #db620c;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #1c491f;
+}
+
+input[type="submit"] {
+    background-color: #2f99f0;
+    color: rgb(15, 13, 13);
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+input[type="submit"]:hover {
+    background-color: #f5d30f;
+}
+
+@media (max-width: 600px) {
+
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-group label {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        font-size: 18px;
+    }
+}
