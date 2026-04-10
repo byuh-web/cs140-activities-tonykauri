@@ -42,7 +42,7 @@ footer {
     background: #8a1a77;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 2px;
 }
 
 table {
@@ -57,7 +57,7 @@ section, ul, li {
 
 ul, li {
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 form {
