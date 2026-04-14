@@ -51,10 +51,6 @@ table {
     margin-top: 20px;
 }
 
-section, ul, li {
-
-}
-
 ul, li {
     padding: 10px;
     text-align: left;
@@ -91,4 +87,19 @@ embed {
     embed {
         height: 250px;
     }
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
 }

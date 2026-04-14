@@ -3,10 +3,29 @@
 <head>
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
+
+    <script>
+        function validateForm() {
+            let name = document.forms["myForm"]["name"].value;
+            let email = document.forms["myForm"]["email"].value;
+            let favorite = document.forms["myForm"]["favorite"].value;
+            let message = document.forms["myForm"]["message"].value;
+
+            if (name === "" || email === "" || favorite === "" || message === "") {
+                alert("Please fill out all required fields!");
+                return false;
+            }
+            alert("Form submitted successfully!");
+            return true;
+        }
+    </script>
 </head>
+
 <body>
 
-<header><h1>Contact Us</h1></header>
+<header>
+    <h1>Contact Us</h1>
+</header>
 
 <nav>
     <a href="index.html">Home</a>
@@ -14,21 +33,32 @@
     <a href="story.html">Story</a>
     <a href="gallery.html">Gallery</a>
     <a href="contact.html">Contact</a>
+    <a href="table.html">Table</a>
 </nav>
 
 <div class="container">
+
     <h2>Send Feedback</h2>
 
-    <form>
-        <input type="text" placeholder="Your Name">
-        <input type="email" placeholder="Email">
-        <input type="text" placeholder="Favorite Character">
-        <textarea placeholder="Message"></textarea>
-        <button>Submit</button>
+    <form name="myForm" onsubmit="return validateForm()">
+
+        <input type="text" name="name" placeholder="Your Name">
+
+        <input type="email" name="email" placeholder="Email">
+
+        <input type="text" name="favorite" placeholder="Favorite Character">
+
+        <textarea name="message" placeholder="Message"></textarea>
+
+        <button type="submit">Submit</button>
+
     </form>
+
 </div>
 
-<footer><p>&copy; tony 2026</p></footer>
+<footer>
+    <p>&copy; tony 2026 Lilo & Stitch Fan Site</p>
+</footer>
 
 </body>
 </html>
