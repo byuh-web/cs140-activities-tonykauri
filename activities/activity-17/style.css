@@ -46,6 +46,7 @@ footer {
 }
 
 table {
+
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
@@ -70,6 +71,7 @@ button {
     background: #1e90ff;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 
